@@ -1,0 +1,69 @@
+{
+  "name": "vue3-drag-layout",
+  "type": "module",
+  "version": "0.0.1",
+  "packageManager": "pnpm@7.28.0",
+  "description": "",
+  "author": "Jesse Wang <ajesses891@gmail.com>",
+  "license": "MIT",
+  "funding": "https://github.com/sponsors/antq",
+  "homepage": "https://github.com/antq/vue3-drag-layout#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antq/vue3-drag-layout.git"
+  },
+  "bugs": "https://github.com/antq/vue3-drag-layout/issues",
+  "keywords": [
+    "vuejs",
+    "vuejs3",
+    "component",
+    "vuejs3 component",
+    "drag component",
+    "drag",
+    "draggable",
+    "resize",
+    "resizable",
+    "fluid",
+    "responsive"
+  ],
+  "sideEffects": false,
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.umd.js",
+      "import": "./dist/index.es.js"
+    }
+  },
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "style": "dist/style.css",
+  "scripts": {
+    "examples": "pnpm dev --filter ./examples",
+    "lint": "eslint .",
+    "postinstall": "npx simple-git-hooks"
+  },
+  "dependencies": {
+    "@vueuse/core": "^9.13.0",
+    "vue-router": "^4.1.6"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.36.0",
+    "@types/node": "^18.14.6",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vue3-drag-layout/components": "workspace:*",
+    "eslint": "^8.35.0",
+    "lint-staged": "^13.1.2",
+    "pnpm": "^7.28.0",
+    "typescript": "^4.9.5"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  },
+  "eslintConfig": {
+    "extends": "@antfu"
+  }
+}

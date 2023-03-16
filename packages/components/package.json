@@ -1,0 +1,17 @@
+{
+  "name": "@vue3-drag-layout/components",
+  "version": "1.0.0",
+  "description": "all components are settled here",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.ts",
+  "module": "index.ts",
+  "unpkg": "index.js",
+  "jsdelivr": "index.js",
+  "types": "index.d.ts",
+  "scripts": {},
+  "peerDependencies": {
+    "vue": "^3.2.47"
+  }
+}
