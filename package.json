@@ -6,13 +6,12 @@
   "description": "",
   "author": "Jesse Wang <ajesses891@gmail.com>",
   "license": "MIT",
-  "funding": "https://github.com/sponsors/antq",
-  "homepage": "https://github.com/antq/vue3-drag-layout#readme",
+  "homepage": "https://github.com/ajesses/vue3-drag-layout#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/antq/vue3-drag-layout.git"
+    "url": "git+https://github.com/ajesses/vue3-drag-layout.git"
   },
-  "bugs": "https://github.com/antq/vue3-drag-layout/issues",
+  "bugs": "https://github.com/ajesses/vue3-drag-layout/issues",
   "keywords": [
     "vuejs",
     "vuejs3",
