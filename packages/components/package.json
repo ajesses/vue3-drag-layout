@@ -9,7 +9,7 @@
   "module": "index.ts",
   "unpkg": "index.js",
   "jsdelivr": "index.js",
-  "types": "index.d.ts",
+  "types": "types/components/index.d.ts",
   "scripts": {},
   "peerDependencies": {
     "vue": "^3.2.47"
