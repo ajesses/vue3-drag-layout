@@ -1,0 +1,43 @@
+{
+  "name": "vue3-drag-layout",
+  "version": "0.0.1",
+  "description": "A Component Library for Vue 3",
+  "author": "Jesse Wang <ajesses891@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/ajesses/vue3-drag-layout#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ajesses/vue3-drag-layout.git"
+  },
+  "bugs": "https://github.com/ajesses/vue3-drag-layout/issues",
+  "keywords": [
+    "vue3-drag-layout",
+    "component library",
+    "ui framework",
+    "ui",
+    "vue"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/types/vue3-drag-layout/index.d.ts",
+      "require": "./dist/index.umd.js",
+      "import": "./dist/index.es.js"
+    },
+    "./*": "./*"
+  },
+  "main": "dist/index.umd.js",
+  "module": "dist/index.es.js",
+  "unpkg": "dist/index.umd.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "style": "dist/style.css",
+  "scripts": {},
+  "peerDependencies": {
+    "vue": "^3.2.47"
+  },
+  "typings": "dist/types/vue3-drag-layout/index.d.ts"
+}
