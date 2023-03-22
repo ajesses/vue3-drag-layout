@@ -1,19 +1,19 @@
 import type { PropType } from 'vue'
 
-function typeValidator(type: string): boolean {
-  return [
-    'default',
-    'primary',
-    'info',
-    'success',
-    'warning',
-    'danger'
-  ].includes(type)
-}
+// function typeValidator(type: string): boolean {
+//   return [
+//     'default',
+//     'primary',
+//     'info',
+//     'success',
+//     'warning',
+//     'danger',
+//   ].includes(type)
+// }
 
-function sizeValidator(size: string): boolean {
-  return ['normal', 'mini', 'small', 'large'].includes(size)
-}
+// function sizeValidator(size: string): boolean {
+//   return ['normal', 'mini', 'small', 'large'].includes(size)
+// }
 
 export const ButtonProps = {
   type: String as PropType<
@@ -29,10 +29,10 @@ export const ButtonProps = {
   color: String,
   disabled: Boolean,
   textColor: {
-    type: String
+    type: String,
   },
   ripple: {
     type: Boolean,
-    default: true
-  }
+    default: true,
+  },
 }
